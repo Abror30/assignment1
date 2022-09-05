@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    position: relative;
+}
+.main{
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+.main h1{
+    text-align: center;
+    font-weight: lighter;
+}
+.one{
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-flow: wrap;
+    
+}
+.blc1{
+    border: 3px solid black;
+    padding: 10px;
+    background-color: gray;
+    margin: 20px;
+    width: 30%;
+    box-sizing: border-box;
+}
+.blc1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 15%;
+}
+.chicken{
+    border: 3px solid black;
+    box-sizing: border-box;
+    float: right;
+    background-color: rgb(211, 154, 164);
+    position: relative;
+    top: -33px;
+    left: 13px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.blc2{
+    border: 3px solid black;
+    padding: 10px;
+    background-color: gray;
+    margin: 20px;
+    width: 30%;
+    box-sizing: border-box;
+}
+.blc2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 15%;
+}
+.beef{
+    border: 3px solid black;
+    box-sizing: border-box;
+    float: right;
+    background-color: rgb(177, 45, 45);
+    position: relative;
+    top: -33px;
+    left: 13px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #eee;
+}
+.blc3{
+    border: 3px solid black;
+    padding: 10px;
+    background-color: gray;
+    margin: 20px;
+    width: 30%;
+    height: 230px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.blc3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 0;
+}
+.sushi{
+    border: 3px solid black;
+    box-sizing: border-box;
+    float: right;
+    padding: 0 5%;
+    background-color: rgb(222, 240, 186);
+    position: relative;
+    top: -33px;
+    left: 13px;
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow: auto;
+}
+
+ @media (min-width: 735px) and (max-width: 1314px) {
+    .blc1{
+        float: left;
+        width: 40%;
+        margin: 5px;
+        padding: 20px;
+    }
+    .chicken{
+        float: right;
+        top: -43px;
+        left: 23px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .blc2{
+        float: left;
+        width: 40%;
+        margin: 5px;
+        padding: 20px;
+    }
+    .beef{
+        float: right;
+        top: -43px;
+        left: 23px;
+        padding-left: 60px;
+        padding-right: 60px;
+        
+    }
+    .blc3{
+        float: left;
+        width: 90%;
+        margin: 5px;
+        margin-top: 30px;
+    }
+    }
+
+    /*mobile version*/
+    @media (min-width: 500px) and (max-width: 735px) {
+        .blc1{
+            float: left;
+            width: 50%;
+            margin: 5px;
+            padding: 20px;
+        }
+        .chicken{
+            float: right;
+            top: -43px;
+            left: 23px;
+            padding-left: 35px;
+            padding-right: 35px;
+        }
+        .blc1 p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            font-size: smaller;
+        }
+    
+        .blc2{
+            float: left;
+            width: 50%;
+            margin: 5px;
+            padding: 20px;
+        }
+        .blc2 p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            font-size: smaller;
+        }
+        .beef{
+            float: right;
+            top: -43px;
+            left: 23px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        .blc3{
+            float: left;
+            width: 50%;
+            margin: 5px;
+            
+        }
+    }
+    @media (min-width: 300px) and (max-width: 500px) {
+        .blc1{
+            float: left;
+            width: 50%;
+            margin: 5px;
+            padding: 40px;
+            height: 30%;
+        }
+        .chicken{
+            float: right;
+            top: -62px;
+            left: 42px;
+            padding-left: 40px;
+            padding-right: 20px;
+        }
+    
+        .blc2{
+            float: left;
+            width: 50%;
+            margin: 5px;
+            padding: 20px;
+        }
+        .beef{
+            float: right;
+            top: -42px;
+            left: 23px;
+            padding-left: 60px;
+            padding-right: 40px;
+        }
+        .blc3{
+            float: left;
+            width: 50%;
+            margin: 5px;
+                 
+        }
+        .beef{
+            float: right;
+            top: -43px;
+            left: 23px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+    }
